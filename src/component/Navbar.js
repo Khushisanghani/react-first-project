@@ -12,11 +12,11 @@ function Navbar(){
             <div className="container">
             <nav>
                 <div className="logo">
-                    <h2>Logo</h2>
+                    <h2>WebDesign</h2>
                 </div>
                     <ul className={isOpen ? "nav-link active" : "nav-link"}>
                         <li>
-                            <a href="/">Home</a>
+                            <a href="/" className="active">Home</a>
                         </li>
                         <li>
                             <a href="/">About</a>
@@ -40,7 +40,6 @@ function Navbar(){
             <section>
                 <div className="containar">
                     <div className="contat">
-                        <h2>contant</h2>
                     </div>
                 </div>
             </section>

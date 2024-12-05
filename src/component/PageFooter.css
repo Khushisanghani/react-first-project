@@ -1,0 +1,26 @@
+.footer-main {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-container {
+    background: #41b4a3;
+    color: #fff;
+    font-size: 20px;
+    padding: 40px;
+}
+.copytext {
+    text-align: center;
+    padding: 10px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    border-radius: 10px;
+    color:#5c9b90;
+}
+ul{
+    list-style: none;
+    padding: 10px;
+}

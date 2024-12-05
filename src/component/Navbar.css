@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body{
+    background-color: #8dc3ba;
+}
 .container{
     max-width: 1440%;
     width: 100%;
@@ -39,9 +42,10 @@ a{
     font-size: 1.3rem;
     padding: 10px;
     border-radius: 10px;
+    display: block;
 }
-.container ul li a:hover{
-    background-color:#838988;
+.container ul li a:hover ,.container ul li a.active {
+    background-color:#5c9b90;
 }
 .contat{
     position: absolute;
@@ -53,7 +57,9 @@ a{
     font-size: 1.5rem;
     cursor: pointer;
     display: none;
+    color: #fff;
 }
+
 @media(max-width:768px) {
     .contat h2{
         font-size:4rem;
@@ -62,6 +68,7 @@ a{
     .icon{
         display: block;
     }
+    
     .container .nav-link{
         flex-direction: column;
         justify-content: space-evenly;
@@ -77,4 +84,5 @@ a{
     .nav-link.active{
         top:10%;
     }
+    
 }
