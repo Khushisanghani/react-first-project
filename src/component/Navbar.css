@@ -4,9 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-body{
+/* body{
     background-color: #8dc3ba;
-}
+} */
 .container{
     max-width: 1440%;
     width: 100%;
@@ -44,7 +44,7 @@ a{
     border-radius: 10px;
     display: block;
 }
-.container ul li a:hover ,.container ul li a.active {
+.container ul li a:hover ,.container ul li a.active-link {
     background-color:#5c9b90;
 }
 .contat{

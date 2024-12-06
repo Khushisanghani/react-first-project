@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { FaBars } from "react-icons/fa";
+// import { LuFlower } from "react-icons/lu";
+import { Link} from "react-router-dom";
 function Navbar(){
     const[isOpen,setIsOpen]=useState(false);
     const toggelMenu =() =>{
@@ -13,22 +15,23 @@ function Navbar(){
             <nav>
                 <div className="logo">
                     <h2>WebDesign</h2>
+                    {/* <LuFlower /> */}
                 </div>
                     <ul className={isOpen ? "nav-link active" : "nav-link"}>
                         <li>
-                            <a href="/" className="active">Home</a>
+                            <Link to="/" className={(IsActive)=>IsActive ? "active-link":""}>Home</Link>
                         </li>
                         <li>
-                            <a href="/">About</a>
+                            <Link to="/about">About</Link>
                         </li>
                         <li>
-                            <a href="/">Services</a>
+                            <Link to="/services">Services</Link>
                         </li>
                         <li>
-                            <a href="/">Terms</a>
+                            <Link to="/term">Term</Link>
                         </li>
                         <li>
-                            <a href="/">Contact</a>
+                            <Link to="/contact">Contact</Link>
                         </li>
                     </ul>
                     <div className="icon" onClick={toggelMenu}>

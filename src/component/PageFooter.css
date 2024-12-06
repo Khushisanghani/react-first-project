@@ -24,3 +24,6 @@ ul{
     list-style: none;
     padding: 10px;
 }
+@media(max-width:768px){
+    .footer-main{ display: inline;}
+}
