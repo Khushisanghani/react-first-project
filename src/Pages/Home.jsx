@@ -5,7 +5,7 @@ function Home(){
     return (
 
         <div>
-            <div><img src={img} alt=''/>
+            <div><img src={img} alt='' className='home-img'/>
             </div>
         </div>
     )
